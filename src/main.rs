@@ -2,6 +2,8 @@
 extern crate yew;
 use yew::prelude::*;
 
+mod todo_item;
+
 struct Model {}
 
 enum Msg {
